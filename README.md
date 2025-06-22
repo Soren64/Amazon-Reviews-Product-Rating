@@ -1,8 +1,8 @@
 # Amazon-Reviews-Product-Rating
 Machine Learning project using Python to make predictions on product score ratings.
 
-# Authors
-Nicholas Matsuda (Me)
+# Contributors
+Nicholas Matsuda
 Graham Laroche
 Joy Patel
 Justin Tarnowski
@@ -23,9 +23,13 @@ Modular code structure for easy extension and experimentation
 
 # Technologies Used
 Python 3.x
+
 pandas
+
 scikit-learn
+
 matplotlib
+
 NumPy
 
 # How to Use
