@@ -1,3 +1,14 @@
+#Nicholas Matsuda
+#Product Rating 
+#Updated 12/8/24
+
+import pandas as pd
+import numpy as np
+import xgboost as xgb
+import scipy.stats as stats
+from scipy.stats import spearmanr
+import matplotlib.pyplot as plt
+from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error
 
