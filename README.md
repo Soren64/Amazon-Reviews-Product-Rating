@@ -11,15 +11,17 @@ Justin Tarnowski
 This project is a machine learning application developed in Python that predicts product ratings based on customer review text using the Amazon Reviews 23 dataset. It demonstrates data preprocessing, feature extraction, and basic predictive modeling techniques.
 
 # Features
-Data preprocessing and cleaning of large JSON-formatted review data
+Utilized XGBoost regression model for predicting average product ratings based on review and product features.
 
-Feature extraction using TF-IDF vectorization on review text
+Engineered features including helpful votes, review text length, and product price to improve model input.
 
-Implementation of a machine learning model (e.g., Logistic Regression or Random Forest) to predict product ratings
+Merged and processed large JSON datasets containing both review texts and product metadata for comprehensive analysis.
 
-Exploration and analysis of dataset characteristics using pandas and matplotlib
+Evaluated model performance using Mean Absolute Error (MAE) and Spearman’s Rank Correlation to measure prediction accuracy and rank agreement.
 
-Modular code structure for easy extension and experimentation
+Implemented a custom Top-k Hit Rate metric to assess how well the model predicts top-rated products.
+
+Visualized results using scatter plots for predicted vs actual ratings and bar charts for hit rate metrics, aiding interpretability.
 
 # Technologies Used
 Python 3.x
@@ -32,6 +34,11 @@ matplotlib
 
 NumPy
 
+# Dataset
+This project uses the Amazon Reviews 23 dataset, which is available at:
+
+https://cseweb.ucsd.edu/~jmcauley/datasets.html#amazon_reviews
+
 # How to Use
 Clone the repository
 
@@ -41,9 +48,12 @@ bash
 Copy
 Edit
 pip install -r requirements.txt  
-Run the Jupyter notebooks or Python scripts in the /src folder to preprocess data and train the model
+Run the Jupyter notebooks or Python script 'product_ratings.py' to preprocess data and train the model
 
 Modify or extend the model and preprocessing steps as desired
+
+Make sure you download the respective jsonl files for the category you wish to use; both the raw data and meta data files
+Change the pathway as needed
 
 # Future Improvements
 Implement more advanced natural language processing techniques (e.g., word embeddings, transformers)
@@ -52,7 +62,9 @@ Experiment with deeper or ensemble machine learning models
 
 Enhance data cleaning to handle edge cases and missing data
 
-Add a web interface or API for real-time predictions
+Additional feature engineering
+
+Potential data sanitation and/or balancing; train the model with a greater balance of positive and negative examples
 
 Notes
 This project was primarily developed and coded independently as part of a team assignment.
