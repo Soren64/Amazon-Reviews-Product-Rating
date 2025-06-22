@@ -3,8 +3,11 @@ Machine Learning project using Python to make predictions on product score ratin
 
 # Contributors
 Nicholas Matsuda
+
 Graham Laroche
+
 Joy Patel
+
 Justin Tarnowski
 
 # Project Overview
