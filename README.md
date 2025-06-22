@@ -38,7 +38,8 @@ matplotlib
 NumPy
 
 # Dataset
-This project uses the Amazon Reviews 23 dataset, which is available at:
+This project uses the Amazon Reviews 23 dataset, provided by Julian McAuley and his team at UCSD.
+The dataset is publicly available for research and educational use. Available at:
 
 https://cseweb.ucsd.edu/~jmcauley/datasets.html#amazon_reviews
 
@@ -67,6 +68,14 @@ Enhance data cleaning to handle edge cases and missing data
 Additional feature engineering
 
 Potential data sanitation and/or balancing; train the model with a greater balance of positive and negative examples
+
+# License / Usage
+This project is for personal portfolio and educational purposes.
+All code is the property of Nicholas Matsuda.
+
+If you’re interested in using or collaborating on this code, please feel free to contact me.
+
+
 
 # Notes
 This project was primarily developed and coded independently as part of a team assignment.
