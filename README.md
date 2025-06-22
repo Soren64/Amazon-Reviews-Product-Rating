@@ -45,18 +45,17 @@ https://cseweb.ucsd.edu/~jmcauley/datasets.html#amazon_reviews
 # How to Use
 Clone the repository
 
-Install the required Python packages (preferably in a virtual environment):
+Install the required Python packages (preferably in a virtual environment)
 
-bash
-Copy
-Edit
-pip install -r requirements.txt  
 Run the Jupyter notebooks or Python script 'product_ratings.py' to preprocess data and train the model
 
 Modify or extend the model and preprocessing steps as desired
 
 Make sure you download the respective jsonl files for the category you wish to use; both the raw data and meta data files
+
 Change the pathway as needed
+
+Run the script on Python 3 or greater
 
 # Future Improvements
 Implement more advanced natural language processing techniques (e.g., word embeddings, transformers)
@@ -69,7 +68,7 @@ Additional feature engineering
 
 Potential data sanitation and/or balancing; train the model with a greater balance of positive and negative examples
 
-Notes
+# Notes
 This project was primarily developed and coded independently as part of a team assignment.
 
 The implementation is functional but could be further optimized and improved with additional time and resources.
